@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+html {
+	font-family: "Inter", sans-serif;
+}
+
+body {
+	background-color: #F5F5F5;
+	color: #222222;
+/*	background: linear-gradient(180deg, white, #f5f6f7) no-repeat;*/
+
+	margin: 0;
+	padding: 25px;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.large {
+	font-size: 50px;
+}
+
+.medium {
+	font-size: 30px;
+}
+
+.small {
+	font-size: 15px;
+}
+
+.indent {
+	margin-left: 15px;
+}
+
+.divider {
+	margin: 10px auto 20px 0;
+	width: 80%;
+
+	height: 1px;
+	background-color: black;
+}
+
+header .divider {
+	height: 3px;
+	margin: 20px auto;
+	width: 100%;
+}
+
+header .empty-container {
+	width: 100%;
+	height: 5vw;
+}
+
+.header {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .site-logo {
+/*	text-transform: uppercase;*/
+	text-align: center;
+	text-wrap: nowrap;
+
+}
+
+.header .donate {
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.header > .donate:hover {
+	background-color: #d6d6d6;
+	color: #11111;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+
+.main {
+	width: 60%;
+	margin: 0 auto;
+/*	padding: 10px;*/
+}
+
+.main h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.my-projects, .useful-resources, .some-interesting-stuff {
+	margin: 10px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.my-projects li {
+	list-style:	upper-roman;
+}
+
